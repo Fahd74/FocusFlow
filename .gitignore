@@ -1,0 +1,129 @@
+# ------------------------------------------------------------------------------
+# 1. Environment & Secrets (البيانات الحساسة والمفاتيح السرية)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+*.env
+!.env.example
+local.properties
+key.properties
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+google-services.json
+GoogleService-Info.plist
+
+# Firebase & GCP Service Account Keys (مفاتيح حسابات الخدمة)
+*-firebase-adminsdk-*.json
+*firebase-adminsdk*.json
+*service-account*.json
+*serviceAccountKey*.json
+firebase-debug.log*
+
+# Certificates & Windows Signing Keys
+*.cer
+*.pfx
+*.crt
+
+# Local Databases (قواعد البيانات المحلية والنسخ المؤقتة)
+*.sqlite
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# ------------------------------------------------------------------------------
+# 2. Planning, Reports & Agent Artifacts (ملفات التخطيط والتقارير المؤقتة)
+# ------------------------------------------------------------------------------
+# Planning & Status Reports (تقارير البناء والمتابعة المؤقتة)
+FOCUSFLOW_PHASE_STATUS_REPORT.md
+FOCUSFLOW_PROJECT_REPORT.md
+PROJECT_DETAILS.md
+*REPORT*.md
+*STATUS*.md
+*PLAN*.md
+*DETAILS*.md
+implementation_plan.md
+walkthrough.md
+
+# Agent & Brain Artifacts (يجب وضع / في البداية لتجنب تجاهل مجلدات داخل lib)
+/.agents/
+/.gemini/
+/brain/
+/.brain/
+/.tasks/
+/logs/
+/perf_reports/
+*.log
+
+# ------------------------------------------------------------------------------
+# 3. Flutter / Dart / Build Artifacts (ملفات بناء وتجميع مشروع فلاتر)
+# ------------------------------------------------------------------------------
+build/
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+coverage/
+**/coverage/
+
+# Android Specific
+.gradle/
+**/.gradle/
+android/.gradle/
+android/build/
+android/app/build/
+/android/app/debug
+/android/app/profile
+/android/app/release
+*.apk
+*.aab
+*.aof
+
+# iOS Specific
+**/ios/Flutter/.last_build_id
+**/Pods/
+**/DerivedData/
+
+# Windows Specific & Installers
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_plugin_registrant.cc
+/windows/installer/Output/
+*.msix
+*.appx
+*.msixbundle
+
+# ------------------------------------------------------------------------------
+# 4. IDE & OS Miscellaneous Files (ملفات المحرر وبيئة العمل والنظام)
+# ------------------------------------------------------------------------------
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# OS & Temp Files
+.DS_Store
+Thumbs.db
+*.class
+*.pyc
+*.swp
+*.tmp
+*.bak
+.history
+.svn/
+.atom/
+.build/
+.buildlog/
+.swiftpm/
+migrate_working_dir/
