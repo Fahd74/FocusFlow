@@ -21,6 +21,24 @@
 
 ---
 
+## 📥 Download FocusFlow (أحدث إصدار)
+
+Get the latest official production build for your platform from [GitHub Releases](https://github.com/Fahd74/FocusFlow/releases/latest):
+
+| Platform | Build Type | Architecture | Direct Download Link | Size |
+| :--- | :--- | :--- | :--- | :--- |
+| 🪟 **Windows** | Inno Setup Installer (`.exe`) | `x64` (Win 10/11) | [⬇️ **Download Windows Setup**](https://github.com/Fahd74/FocusFlow/releases/latest/download/FocusFlow-Windows-Setup-v1.0.0.exe) | ~32 MB |
+| 📱 **Android** | Release APK (`.apk`) | `arm64-v8a` (Modern phones) | [⬇️ **Download APK (ARM64)**](https://github.com/Fahd74/FocusFlow/releases/latest/download/app-arm64-v8a-release.apk) | ~26 MB |
+| 📱 **Android** | Release APK (`.apk`) | `armeabi-v7a` (32-bit legacy) | [⬇️ **Download APK (ARMv7)**](https://github.com/Fahd74/FocusFlow/releases/latest/download/app-armeabi-v7a-release.apk) | ~24 MB |
+
+> [!TIP]
+> **Which Android version should I install?**  
+> • **`arm64-v8a` (Recommended):** For all modern Android phones and tablets (Android 7.0+, 64-bit).  
+> • **`armeabi-v7a`:** For older or entry-level 32-bit Android devices.  
+> You can also view all releases and changelogs on the [Releases Page](https://github.com/Fahd74/FocusFlow/releases).
+
+---
+
 ## 💡 The Story: Why FocusFlow?
 
 Most to-do apps suffer from one of two extremes:
